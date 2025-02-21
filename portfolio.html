@@ -4,39 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <h1>My Portfolio</h1>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Sadhika Prasanna</h1>
+        <p>Web Developer | Full Stack Engineer | Problem Solver</p>
+    </header>
 
-    <h2>Self Introduction</h2>
-    <p>Hello! I am Sadhika Prasanna, a passionate developer with experience in web development.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, Node.js</li>
-        <li>MongoDB, MySQL</li>
-    </ul>
+    <main class="container my-4">
+        <section id="about" class="p-4 bg-light rounded">
+            <h2>About Me</h2>
+            <p>Hello! I am <strong>Sadhika Prasanna</strong>, a passionate **Full Stack Developer** with experience in building dynamic and responsive web applications.</p>
+        </section>
 
-    <h2>Projects / Work Experience</h2>
-    <ul>
-        <li><a href="https://github.com/sadhikaprasanna/MechAI-Chatbot">MechAI-A Virtual Car Mechanic Chatbot</a></li>
-        <li><a href="https://github.com/sadhikaprasanna/prescription-qrcode-generation">Prescription QR-Generator</a></li>
-    </ul>
+        <section id="skills" class="mt-4 p-4 bg-white shadow rounded">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Frontend: HTML, CSS, JavaScript, React</li>
+                <li class="list-group-item">Backend: Node.js, Express.js, Flask</li>
+                <li class="list-group-item">Databases: MongoDB, MySQL</li>
+                <li class="list-group-item">Version Control: Git, GitHub</li>
+            </ul>
+        </section>
 
-    <h2>Feedback / Achievements</h2>
-    <p>Received positive feedback from mentors and reviewers for efficient code and design.</p>
+        <section id="projects" class="mt-4 p-4 bg-white shadow rounded">
+            <h2>Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://github.com/sadhikaprasanna/MechAI-Chatbot" target="_blank">MechAI-Chatbot</a></li>
+                <li class="list-group-item"><a href="https://github.com/sadhikaprasanna/prescription-qrcode-generation" target="_blank">Automatic Drug Dispenser</a></li>
+            </ul>
+        </section>
 
-    <h2>Education Profile</h2>
-    <p>Bachelor's in Computer Science, Keshav Memorial Institute of Technology</p>
+        <section id="contact" class="mt-4 p-4 bg-light rounded">
+            <h2>Contact Me</h2>
+            <ul class="list-unstyled">
+                <li>Email: <a href="mailto:your.email@example.com">sadhikaprasanna@gmail.com</a></li>
+                <li>Phone: +1234567890</li>
+                <li>GitHub: <a href="https://github.com/sadhikaprasanna" target="_blank">Your GitHub</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/sadhikaprasanna" target="_blank">Your LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <h2>Contact Information</h2>
-    <ul>
-        <li>Email: saadhikaprasanna28@example.com</li>
-        <li>Phone: +1234567890</li>
-        <li>GitHub: <a href="https://github.com/sadhikaprasanna">Your GitHub</a></li>
-    </ul>
+    <footer class="text-center bg-dark text-white py-3">
+        <p>© 2025 Sadhika Prasanna. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
